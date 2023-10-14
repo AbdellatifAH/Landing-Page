@@ -120,3 +120,87 @@ a {
     border: 5px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+
+.quote .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.quote p {
+    color: #1f2937;
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote figcaption {
+    font-weight: 900;
+    font-size: 20px;
+    color: #1f2937;
+    text-align: end;
+}
+
+.signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #3882f6;
+    padding: 70px 0px;
+    border-radius: 8px;
+}
+
+.signup h2,
+.signup p,
+.signup button {
+    color: white;
+}
+
+.signup button {
+    background-color: #3882f6;
+    border: solid 2px white;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0;
+    margin: 15px 0px;
+}
+
+.signup p {
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer .container {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
